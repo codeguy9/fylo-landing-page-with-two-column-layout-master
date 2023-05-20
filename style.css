@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, sans-serif;
+    max-width: 1440px;
+    margin: auto;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    margin: auto;
+    padding: 3rem 2rem;
+
+}
+
+.navigation a:last-child, .navigation a:nth-child(2) {
+    padding-left: 2rem;
+}
+
+.navigation a {
+    color: hsl(0, 0%, 65%);
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navigation a:hover {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+header {
+    padding: 3rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+aside {
+    max-width: 40%;
+    transform: translateY(20%);
+    
+
+}
+
+header img {
+    display: block;
+    max-width: 800px;
+}
+
+aside h1 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+aside p {
+    line-height: 1.5;
+    font-size: 16px;
+    color: hsl(243, 87%, 12%);
+    font-family: Open Sans, sans-serif;
+    padding-bottom: 2rem;
+}
+
+.first-input {
+    width: 300px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid hsl(0, 0%, 75%);
+}
+
+.email-btn {
+    background: hsl(224, 93%, 58%);
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    
+}
+
+.email-btn:hover {
+    background: hsl(170, 45%, 43%)
+}
+
+
+main {
+    background-image: url('images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 6rem 2rem 0 2rem;
+    height: 700px;
+    
+}
+
+
+section, .backdrop-img {
+    background-color: hsl(240, 75%, 98%);
+    
+}
+
+.backdrop-img img {
+    display: block;
+    max-width: 800px;
+}
+
+section h2 {
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+section p {
+    line-height: 1.5;
+    font-size: 16px;
+    color: hsl(243, 87%, 12%);
+    font-family: Open Sans, sans-serif;
+    padding-bottom: 2rem;
+}
+
+section a {
+    color: hsl(170, 45%, 43%);
+    font-family: Open Sans, sans-serif;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    
+}
+
+section a:hover {
+    color:hsl(170, 100%, 78%)
+}
+
+section a img {
+    font-size: 3rem;
+    transform: translateY(4px);
+}
+
+.testimonial {
+    max-width: 400px;
+    background-color: white;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    box-shadow: 0px 0px 10px 8px rgb(238, 238, 238);
+    
+}
+
+.client img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-size: 14px;
+}
+
+.client {
+    display: flex;
+}
+
+.occupation h3 {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 1em;
+    padding-left: 1rem;
+}
+
+.occupation h4 {
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 0.8em;
+    padding-left: 1rem;
+}
+
+.mov {
+    display: flex;
+    padding: 3rem 2rem;
+    background: hsl(238, 22%, 44%);
+    justify-content: space-between;
+    
+}
+
+.stanga {
+    max-width: 500px;
+}
+
+.stanga h4 {
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-bottom: 2rem;
+}
+
+.stanga p {
+    color: hsl(0, 0%, 75%);
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 400;
+
+}
+
+.dreapta input {
+    width: 400px;
+    height: 40px;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.dreapta button {
+    display: block;
+    background: hsl(224, 93%, 58%);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    margin-top: 0.6rem;
+}
+
+.dreapta button:hover {
+    background:hsl(170, 45%, 43%)
+}
+
+footer {
+   display: flex;
+    
+    padding: 4rem 2rem;
+    background: hsl(243, 87%, 12%);
+}
+
+.logoandphone {
+    width: 230px;
+}
+
+.logoandphone a {
+    float: left;
+    padding-bottom: 1rem;
+    color: white;
+    
+}
+
+.logoandphone img {
+    padding-bottom: 1rem;
+   
+}
+
+
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    transform: translateY(50px)
+}
+
+.links-1 {
+    width: 70px;
+    
+}
+
+.links-2 {
+    width: 100px;
+    
+}
+
+.links-1 a, .links-2 a {
+    color: white;
+    
+}
+
+.links-1 a:hover {
+    color:hsl(224, 93%, 58%)
+}
+
+.links-2 a:hover {
+    color:hsl(224, 93%, 58%)
+}
+
+.social-icons a {
+    color: white;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color:hsl(224, 93%, 58%)
+}
+
+/*   Mobile   */
+
+@media screen and (max-width: 1170px) {
+    .testimonial {
+        margin-top: 0.5rem;
+        min-width: 200px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .mov {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    aside {
+        max-width: 100%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .backdrop-img img{
+        display: block;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    .footer-links {
+        display: flex;
+        flex-direction:column;
+        gap: 3rem;
+    }
+}
